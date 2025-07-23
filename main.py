@@ -71,5 +71,6 @@ async def predict(student: StudentSchema):
     return {'predict': pred}
 
 
+
 if __name__ == '__main__':
     uvicorn.run(student_app, host='127.0.0.1', port=8000)
